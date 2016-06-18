@@ -1,0 +1,53 @@
+@import 'app.variables';
+
+.contact-page-content {
+  color: color($colors, primary)
+}
+
+.person_content {
+  background : color($colors, light);
+}
+
+
+.my-component {
+  background : color($colors, primary);
+}
+
+.my-component button {
+  color: white;
+}
+
+.item-inner {
+  border:none;
+  color: white;
+}
+
+.divider-col {
+  height: 20px;
+  min-height: 20px;
+}
+
+.content-col {
+  color: color($colors, secondary);
+  font-size: 32px;
+  background : white;
+}
+
+.content-col div {
+  font-size: 12px;
+  margin-top: 0;
+  color: color($colors, dark);
+}
+
+.content-col ion-icon {
+  margin-top: 10px;
+}
+
+.button-bar ion-icon {
+  font-size: 18px;
+}
+
+.button-bar button {
+  margin:0;
+  padding:0;
+}

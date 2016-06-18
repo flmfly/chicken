@@ -1,0 +1,10 @@
+
+<ion-navbar *navbar>
+  <ion-title>
+    About
+  </ion-title>
+</ion-navbar>
+
+<ion-content no-padding>
+  <baidu-map ak="xYFPf2vLl5zQ9sZMilA0vH8n" [options]="opts" [offline]="offlineOpts" (onMapLoaded)="loadMap($event)" (onMarkerClicked)="clickMarker($event)"></baidu-map>
+</ion-content>
