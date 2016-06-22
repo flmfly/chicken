@@ -1,0 +1,27 @@
+@import 'app.variables';
+
+
+.category-page {
+  height:100%;
+}
+
+.category-page ion-col {
+  overflow-y: scroll;
+}
+.category-page ion-label{
+  color:black;
+  font-size: 14px;
+}
+
+.category-page ion-item{
+  border-bottom: solid 1px color($colors, light) !important;
+}
+
+
+.category-content {
+  background: color($colors, light);
+}
+
+.category-page .item-selected{
+  background: color($colors, light);
+}

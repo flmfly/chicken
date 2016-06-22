@@ -3,7 +3,7 @@ import {NavController} from 'ionic-angular';
 import {BaiduMap, OfflineOptions, ControlAnchor} from '../../components/angular2-baidu-map';
 
 @Component({
-    templateUrl: 'build/pages/about-page/about-page.html',
+    templateUrl: 'build/pages/around-page/around-page.html',
     styles: [`
         baidu-map{
             width: 100%;
@@ -13,7 +13,7 @@ import {BaiduMap, OfflineOptions, ControlAnchor} from '../../components/angular2
     `],
     directives: [BaiduMap]
 })
-export class AboutPage implements OnInit {
+export class AroundPage implements OnInit {
     constructor(private navController:NavController) {
     }
 

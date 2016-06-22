@@ -1,8 +1,11 @@
 
 <ion-navbar *navbar>
-  <ion-title>
-    About
-  </ion-title>
+  <ion-searchbar hideCancelButton="false" [(ngModel)]="searchQuery" (input)="getItems($event)"></ion-searchbar>
+  <ion-buttons end>
+    <button (click)="openModal()">
+      <ion-icon name="text"></ion-icon>
+    </button>
+  </ion-buttons>
 </ion-navbar>
 
 <ion-content no-padding>
