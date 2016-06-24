@@ -19,11 +19,100 @@
             <ion-col width-33 no-padding>
                 <ion-list no-lines>
                     <ion-item *ngFor="let category of categories" (click)="itemSelected(category)" [class.item-selected]="category.selected">
-                        {{category.name}}
+                        <h2 text-center>{{category.name}}</h2>
                     </ion-item>
                 </ion-list>
             </ion-col>
-            <ion-col width-67 class="category-content"></ion-col>
+            <ion-col width-67 class="category-content">
+                <div class="category-card">
+                    <h6>二级分类1</h6>
+                    <ion-grid text-center>
+                        <ion-row>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类1</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类2</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类3</div>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类4</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类5</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类6</div>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类7</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类8</div>
+                            </ion-col>
+                        </ion-row>
+                    </ion-grid>
+                </div>
+
+                <div class="category-card">
+                    <h6>二级分类2</h6>
+                    <ion-grid text-center>
+                        <ion-row>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类1</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类2</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类3</div>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类4</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类5</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类6</div>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类7</div>
+                            </ion-col>
+                            <ion-col width-33>
+                                <img src="img/picture.png" />
+                                <div>三级分类8</div>
+                            </ion-col>
+                        </ion-row>
+                    </ion-grid>
+                </div>
+
+            </ion-col>
         </ion-row>
     </ion-grid>
 </div>

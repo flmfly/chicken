@@ -25,3 +25,11 @@
 .category-page .item-selected{
   background: color($colors, light);
 }
+
+.category-card ion-col {
+  overflow: hidden;
+}
+
+.category-card ion-grid {
+  background: white;
+}

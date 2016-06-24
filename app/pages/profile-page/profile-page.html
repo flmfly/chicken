@@ -3,7 +3,8 @@
     <ion-grid no-padding>
         <ion-row class="my-component button-bar">
             <ion-col text-right no-padding>
-                <button clear>
+                <div class="divider-col"></div>
+                <button clear (click)="enterSystemManagerPage()">
                     <ion-icon name='cog'></ion-icon>
                 </button>
                 <button clear>
@@ -13,13 +14,16 @@
             </ion-col>
         </ion-row>
         <ion-row class="my-component">
-            <ion-col>
+            <ion-col width-67>
                 <ion-item class="my-component">
-                    <ion-avatar item-left>
+                    <ion-avatar item-left (click)="enterAccountManagerPage()">
                         <img src="img/henhouse.png">
                     </ion-avatar>
                     <h2>小鸡快跑</h2>
                 </ion-item>
+            </ion-col>
+            <ion-col width-33>
+                <ion-item class="my-component" (click)="enterAccountManagerPage()"><a style="color: white;font-size:12px;float:right" text-right>账户管理></a></ion-item>
             </ion-col>
         </ion-row>
         <ion-row class="divider-col">

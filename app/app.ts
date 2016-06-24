@@ -22,4 +22,12 @@ export class MyApp {
     }
 }
 
-ionicBootstrap(MyApp)
+ionicBootstrap(MyApp, null, {
+    backButtonIcon: 'ios-arrow-back',
+    backButtonText: '',
+    iconMode: 'md',
+    modalEnter: 'modal-slide-in',
+    modalLeave: 'modal-slide-out',
+    tabbarPlacement: 'bottom',
+    pageTransition: 'ios',
+})

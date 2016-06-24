@@ -12,3 +12,22 @@
 @import "../pages/home-page/home-page";
 @import "../pages/scientific-facts-page/scientific-facts-page";
 @import "../pages/selected-fact-page/selected-fact-page";
+@import "../pages/account-manager/account-manager.scss";
+@import "../pages/system-manager/system-manager.scss";
+
+.devide-div {
+  height: 16px;
+  display: inline-block;
+}
+
+.color-light {
+  color: #c8c7cc;
+}
+
+.config-list ion-label {
+  color: color($colors, dark);
+}
+
+.config-list .item-right-text {
+  font-size: 14px;
+}
