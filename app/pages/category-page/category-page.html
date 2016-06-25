@@ -16,7 +16,7 @@
 <div no-padding class="category-page">
     <ion-grid no-padding style="height: 100%;">
         <ion-row>
-            <ion-col width-33 no-padding>
+            <ion-col width-33 no-padding style="background: white">
                 <ion-list no-lines>
                     <ion-item *ngFor="let category of categories" (click)="itemSelected(category)" [class.item-selected]="category.selected">
                         <h2 text-center>{{category.name}}</h2>

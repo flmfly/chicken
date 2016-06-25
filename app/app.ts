@@ -23,9 +23,9 @@ export class MyApp {
 }
 
 ionicBootstrap(MyApp, null, {
-    backButtonIcon: 'ios-arrow-back',
+    // backButtonIcon: 'ios-arrow-back',
     backButtonText: '',
-    iconMode: 'md',
+    iconMode: 'ios',
     modalEnter: 'modal-slide-in',
     modalLeave: 'modal-slide-out',
     tabbarPlacement: 'bottom',

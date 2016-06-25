@@ -24,12 +24,12 @@ export class HomePage {
         this.card = new Card();
         this.card.title = 'Title';
         this.card.subTitle = 'Sub Title';
-        this.card.picUrl = '/img/henhouse.png';
+        this.card.picUrl = 'img/henhouse.png';
 
         this.card1 = new Card();
         this.card1.title = 'Title';
         this.card1.subTitle = 'Sub Title';
-        this.card1.picUrl = '/img/henhouse.png';
+        this.card1.picUrl = 'img/henhouse.png';
         this.card1.picPos = 'B';
     }
 

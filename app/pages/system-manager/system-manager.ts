@@ -1,15 +1,24 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import {Component} from '@angular/core';
+import {NavController} from 'ionic-angular';
 
 /*
-  Generated class for the SystemManagerPage page.
+ Generated class for the SystemManagerPage page.
 
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
+ See http://ionicframework.com/docs/v2/components/#navigation for more info on
+ Ionic pages and navigation.
+ */
 @Component({
-  templateUrl: 'build/pages/system-manager/system-manager.html',
+    templateUrl: 'build/pages/system-manager/system-manager.html',
 })
 export class SystemManagerPage {
-  constructor(private nav: NavController) {}
+    constructor(private nav:NavController) {
+    }
+
+    onPageWillEnter() {
+        document.getElementsByTagName("ion-navbar-section")[0]["style"].display = "block";
+    }
+
+    openNavDetailsPage(item:any) {
+
+    }
 }

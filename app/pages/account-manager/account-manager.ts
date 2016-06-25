@@ -17,11 +17,6 @@ export class AccountManagerPage {
     document.getElementsByTagName("ion-navbar-section")[0]["style"].display = "block";
   }
 
-//show nav bar when we leave the page
-  onPageDidLeave() {
-    document.getElementsByTagName("ion-navbar-section")[0]["style"].display = "none";
-  }
-
   openNavDetailsPage(item: any){
 
   }

@@ -18,7 +18,7 @@ export class CategoryPage {
 
     constructor(private nav:NavController) {
 
-        for (let i = 0; i < 100; i++) {
+        for (let i = 0; i < 20; i++) {
             let category = new Category();
             category.name = '啊分类' + i;
             category.selected = false;
@@ -32,7 +32,6 @@ export class CategoryPage {
         if(this.selectedCategory){
             this.selectedCategory.selected = false;
         }
-        console.log(category);
         category.selected = true;
         this.selectedCategory = category;
     }
